@@ -1,0 +1,6 @@
+PSEUDOCODE
+1) create the dictionary of the matrices by reading the files according to an input 
+2) score each alignment reading each pair of sequences
+3) calculate the score according to  a function
+4) return the scores for each alignment according to the matrix select in the function that crate the dictionary
+
