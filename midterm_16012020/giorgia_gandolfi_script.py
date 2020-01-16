@@ -18,9 +18,7 @@ def matrix(name):
     return dict
 
 mat=matrix(input())
-align1 = ['GSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKL','GNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKL']
-seq1=align1[0]
-seq2=align1[1]
+
 def al(seq,d):
     seq1=seq[0]
     seq2=seq[1]
