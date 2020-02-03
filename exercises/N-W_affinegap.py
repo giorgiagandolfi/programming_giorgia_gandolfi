@@ -58,7 +58,9 @@ def score_aff(s1,s2,S,h,g):
             ix1=M[i-1][j]+h+g
             #opening of a gap in second sequence
             iy1=M[i][j-1]+h+g
+            #match
             m2=Ix[i-1][j-1]+S[s1[j-1]+s2[i-1]]
+            #match
             m3=Iy[i-1][j-1]+S[s1[j-1]+s2[i-1]]
             #gap extension in first sequence
             ix2=Ix[i-1][j]+g
