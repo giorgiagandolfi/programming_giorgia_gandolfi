@@ -34,6 +34,8 @@ def score(s1,s2,S,d,t):
                 trace_back[i][j]="L"
             elif F[i][j]==up:
                 trace_back[i][j]="U"
+    #the starting point for the trace back is the highest value in the matrix of scores
+    #in order to find the indices of the highest value i 
     values=[]
     for i in range(n):
         for j in range(m):
@@ -67,10 +69,8 @@ def score(s1,s2,S,d,t):
     al1=al1[::-1]
     al2=al2[::-1]
     
-    return al1,al2,F,values
+    return al1,al2
 final=score(seq1,seq2,mat,-2,2)
 print(final[0])
 print(final[1])
-print(final[2])
-print(final[3])
 
