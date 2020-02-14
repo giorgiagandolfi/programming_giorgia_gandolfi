@@ -1,3 +1,4 @@
+#script for global alignment
 import input_data
 
 def matrix (s1,s2,S,d):
